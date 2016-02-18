@@ -1,0 +1,16 @@
+.select-area-wrap{ width: 100%; max-width: 600px; min-height: 360px; padding: 0; margin-bottom: 10px; vertical-align: top; }
+.select-area{ width: 100%; max-width: 600px; height: 200px; padding: 0; vertical-align: top; display: inline-flex}
+.area-container{ height: 180px; min-width: 100px; margin-right: 10px; margin-top: 5px; padding: 0; overflow-y: auto; border: 1px solid #f2f2f2}
+.province.area-container{width: 80px; }
+.city.area-container{ min-width: 160px;}
+.area-container ul{ margin: 0; padding: 0; list-style: none}
+.area-container ul li{ padding: 5px; line-height: 16px; position: relative}
+.area-container ul li input[type=checkbox]{ margin-left: 0; margin-top: 2px; vertical-align: middle}
+.area-container ul li span{ margin-left: 15px;}
+.area-container ul li.active{ background: #f2f2f2}
+.area-container ul li:hover{ background: #f2f2f2}
+.all-choose-area{ width: 440px; min-height: 100px; padding: 10px; border: 1px solid #ddd}
+.all-choose-area span{ padding: 2px 5px; margin-right: 5px; margin-bottom: 5px; display: inline-block; border: 1px solid #ddd; background: #f2f2f2}
+.add-area{ margin: 0!important; padding: 0!important; vertical-align: bottom}
+.btn-area{ margin-left: 15px; margin-top: -14px;}
+.all-choose-area span i{ padding: 2px; margin-left: 5px; color: #f00; font-style: normal;}

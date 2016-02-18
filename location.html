@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="location-select/location-select.css" />
+		<script type="text/javascript" src="jQuery-2.1.4.min.js" ></script>
+		<script type="text/javascript" src="handlerbars.js" ></script>
+	</head>
+	<body>
+        <div class="form-group" id="area-container">
+            <label class="col-sm-2 control-label">区域选择</label>
+            <div class="checkbox checkbox-inline" id="location-select">
+
+            </div>
+        </div>	
+       
+        <script type="text/javascript" src="location-select/location-select.js" ></script>
+        <script>
+        	$(function(){
+        		var funs = {
+        			init: function(){
+        				funs.initLocation();
+        				funs.loadData();
+        			},
+        			initLocation: function(){
+        				$('#location-select').LocationSelect();
+        			},
+        			loadData: function(){
+        				//window.initLocationSelect([1,3,10])	
+        			}
+        		};
+        		
+        		funs.init();
+        		
+        	})
+        </script>
+	</body>
+</html>
